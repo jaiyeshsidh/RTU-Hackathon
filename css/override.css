@@ -1,14 +1,14 @@
 .register-now{
     padding-left: 30px !important;
     /* border-radius: 30px; */
-    background: #737afb;
+    background: #0098f6;
     color: #fff !important;
     padding-right:  30px !important;
     cursor: pointer;
 }
 
 .img-landing{
-    width: 100%;
+    width: 80%;
 }
 .img-sponsor-1 {
     width: 400px;
@@ -22,8 +22,7 @@
     background-color:#3a3a3a;
     color: #fff;
 }
-#action-bar .col-sm-4,
-.phase-submit .col-sm-4{
+#action-bar .col-sm-6, .phase-submit .col-sm-6{
     border-right: 1px solid #fff;
 }
 #action-bar p,
@@ -73,7 +72,8 @@
 }
 .about p,
 .challenge p,
-.prizes p {
+.prizes p,
+.prizes ol li{
     letter-spacing: 0.4px;
     font-weight: 400;
     font-size: 13px;
@@ -82,7 +82,7 @@
 }
 .about h2 span,
 .challenge h2 span{
-    background-color: #737afb;
+    background-color: #0098f6;
     color: #fff;
     padding: 5px 15px;
     font-size: 10px;
@@ -118,6 +118,9 @@
 .challenge li{
     padding-left: 20px;
 }
+.challenge img{
+    vertical-align: text-top !important;
+}
 button:focus{
     outline: none;
 }
@@ -129,7 +132,7 @@ button:focus{
 
 #date{
     padding: 2rem;
-    background-color: #737afb;
+    background-color: #0098f6;
     color: #fff;
 }
 #date .col-sm-4{
@@ -152,9 +155,10 @@ button:focus{
 }
 #phase-submit{
     padding: 3rem;
-    background-color: #737afb;
+    background-color: #0098f6;
     color: #fff;
     text-align: center;
+    padding-bottom: 2.5rem;
 }
 .phase-submit button{
     cursor: pointer;
@@ -167,7 +171,7 @@ button:focus{
     letter-spacing:  1px;
     font-weight:  400;
     text-transform:  uppercase;
-    color: #737afb;
+    color: #0098f6;
 }
 #prizes{
     padding: 2rem 0;
@@ -223,7 +227,7 @@ footer a{
     color: #8c8c8c;
 }
 footer a:hover{
-    color: #737afb;
+    color: #0098f6;
     text-decoration: none;
 }
 .copyright{
@@ -253,7 +257,7 @@ footer a:hover{
     width: 270px;
 }
 .lead-on{
-    top: 54px;
+    top: 14px;
     transition: 0.2s all;
 }
 .arrow{
@@ -281,7 +285,7 @@ footer a:hover{
  } 
 .club input{
     padding: 8px 20px;
-    background-color: #737afb;
+    background-color: #0098f6;
     color: #fff !important;
     border: 0;
     border-radius: 0;
@@ -291,7 +295,7 @@ footer a:hover{
 }
 .club input:hover, .club h2 input:active, .club h2 input:focus{
     /* padding: 8px 30px; */
-    background-color: #737afb;
+    background-color: #0098f6;
     color: #fff !important;
     border: 0;
     border-bottom:  1px solid #fff;
