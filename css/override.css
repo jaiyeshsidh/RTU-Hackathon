@@ -64,8 +64,7 @@
     border: none !important;
     color: #000 !important;
 }
-.about h2,
-.challenge h2{
+.about h2, .challenge h2, .jury h2{
     font-size: 32px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -80,8 +79,7 @@
     line-height: 20px;
     color:  #333;
 }
-.about h2 span,
-.challenge h2 span{
+.about h2 span, .challenge h2 span, .jury h2 span{
     background-color: #0098f6;
     color: #fff;
     padding: 5px 15px;
