@@ -1,0 +1,32 @@
+@media(max-width:768px){
+    .sponser img{
+        width: 50%;
+    }
+}
+
+
+
+
+
+@media(max-width:576px){
+    #action-bar .col-sm-4, .phase-submit .col-sm-4{
+        border-right: none;
+        border-bottom: 1px solid #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .text-right{
+        text-align: center !important;
+    }
+}
+
+
+
+@media(max-width: 600px){
+    #mainNav{
+        display: none;
+    }
+    .lead-image{
+        display: none;
+    }
+}

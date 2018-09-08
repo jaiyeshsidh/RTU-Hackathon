@@ -1,0 +1,334 @@
+.register-now{
+    padding-left: 30px !important;
+    /* border-radius: 30px; */
+    background: #737afb;
+    color: #fff !important;
+    padding-right:  30px !important;
+    cursor: pointer;
+}
+
+.img-landing{
+    width: 100%;
+}
+.img-sponsor-1 {
+    width: 400px;
+}
+.img-sponsor-2 {
+    width: 400px;
+}
+
+#action-bar{
+    padding: 2rem;
+    background-color:#3a3a3a;
+    color: #fff;
+}
+#action-bar .col-sm-4,
+.phase-submit .col-sm-4{
+    border-right: 1px solid #fff;
+}
+#action-bar p,
+.phase-submit p {
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+#action-bar h2,
+.phase-submit h2{
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom:  0;
+}
+#action-bar h3,
+#date h3,
+.phase-submit h3 {
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom:  0;
+    text-align:  center;
+}
+.fixed-register{
+    padding: 30px 30px;
+    border: none !important;
+    background: #f3f3f3;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 6px;
+    outline: none;
+    cursor:  pointer;
+}
+.fixed-register:hover{
+    background: #f3f3f3 !important;
+    border: none !important;
+    color: #000 !important;
+}
+.about h2,
+.challenge h2{
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.about p,
+.challenge p,
+.prizes p {
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color:  #333;
+}
+.about h2 span,
+.challenge h2 span{
+    background-color: #737afb;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 10px;
+    font-weight: 300;
+    border-radius: 20px;
+    margin: auto 5px;
+}
+.challenge h4{
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing:  1px;
+    color: #000;
+}
+.challenge h4 span{
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.challenge h4 a{
+    float: right;
+}
+.challenge h4 a img{
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
+.challenge ol {
+    font-size: 30px;
+    font-weight: 700;
+    color: #e2e2e2;
+}
+.challenge li{
+    padding-left: 20px;
+}
+button:focus{
+    outline: none;
+}
+
+#mainNav .navbar-nav{
+    margin-right: auto;
+    margin-left:  auto;
+}
+
+#date{
+    padding: 2rem;
+    background-color: #737afb;
+    color: #fff;
+}
+#date .col-sm-4{
+    border-right: 1px solid #fff;
+}
+#date p {
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+#date h2 {
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom:  0;
+}
+.submit-active{
+    cursor: pointer !important;
+}
+#phase-submit{
+    padding: 3rem;
+    background-color: #737afb;
+    color: #fff;
+    text-align: center;
+}
+.phase-submit button{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 10px auto;
+    display: block;
+    border:0;
+    letter-spacing:  1px;
+    font-weight:  400;
+    text-transform:  uppercase;
+    color: #737afb;
+}
+#prizes{
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+#prizes img{
+    width: 100%;
+}
+#prizes h1{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+}
+#prizes h1 span{ 
+    text-align:  left;
+    color: #1f1f1f;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+@media(min-width:992px){
+    .img-landing-overlay{
+        display: block;
+    }
+}
+@media(min-width:1500px){
+    .img-landing-overlay{
+        display: none;
+    }
+}
+
+footer{
+    background-color: #fff;
+}
+footer ul{
+    list-style-type: none;
+    padding:  20px;
+    margin-bottom:  0;
+    text-align:  center;
+}
+footer li{
+    display: inline;
+    padding: 0 9px;
+    font-size:  12px;
+    letter-spacing:  0.3px;
+}
+footer a{
+    display: inline;
+    color: #8c8c8c;
+}
+footer a:hover{
+    color: #737afb;
+    text-decoration: none;
+}
+.copyright{
+    background-color:#fff;
+}
+.copyright p{
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    color: #929191;
+}
+
+.lead-image{
+    position: fixed;
+    top: -800px;
+    -webkit-z-index: 1032;
+    -moz-z-index: 1032;
+    -ms-z-index: 1032;
+    -o-z-index: 1032;
+    z-index: 1032;
+    left: 30px;
+    transition: 0.4s all;
+}
+.lead-image img{
+    width: 270px;
+}
+.lead-on{
+    top: 54px;
+    transition: 0.2s all;
+}
+.arrow{
+    width: 20px;
+}
+.flip{
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+#sponser{
+    padding: 1rem;
+    background-color: #f3f3f3;
+}
+.sponser img{
+    width: 260px;
+}
+.club input::placeholder {
+    color: #fff !important;
+  }
+ .club h3 {
+     display: inline;
+ } 
+.club input{
+    padding: 8px 20px;
+    background-color: #737afb;
+    color: #fff !important;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    margin:  5px 0;
+    display: inline;
+}
+.club input:hover, .club h2 input:active, .club h2 input:focus{
+    /* padding: 8px 30px; */
+    background-color: #737afb;
+    color: #fff !important;
+    border: 0;
+    border-bottom:  1px solid #fff;
+    border-radius: 0;
+}
+.information{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.information img{
+    width: 40px;
+    height: 40px;
+}
+.fix-register-btn-mob{
+    display: none;
+}
+.fix-register-btn-mob a{
+    position: fixed;
+    z-index: 1029;
+    border-radius: 30px !important;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    bottom: 22px;
+}
+.centered {
+    position: fixed;
+    left: calc( 50% - 80px);
+    /* transform: translate(-50%, 0); */
+    z-index:  999;
+}
+@media(max-width:600px){
+    .fix-register-btn-mob{
+        display: block;
+    }
+}
