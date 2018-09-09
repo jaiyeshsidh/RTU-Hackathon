@@ -6,7 +6,11 @@
     padding-right:  30px !important;
     cursor: pointer;
 }
-
+#landing{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: contain;
+}
 .img-landing{
     width: 80%;
 }
@@ -273,7 +277,7 @@ footer a:hover{
     background-color: #f3f3f3;
 }
 .sponser img{
-    width: 260px;
+    width: 24.5%;
 }
 .club input::placeholder {
     color: #fff !important;
@@ -333,4 +337,30 @@ footer a:hover{
     .fix-register-btn-mob{
         display: block;
     }
+}
+
+.jury{
+    background: #fafafa;
+}
+.jury img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+.jury .row h4{
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.jury .row p{
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #929292;
+    text-align: center;
 }
