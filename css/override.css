@@ -319,13 +319,17 @@ footer a:hover{
 .fix-register-btn-mob a{
     position: fixed;
     z-index: 1029;
-    border-radius: 30px !important;
-    font-size: 12px;
+    /* border-radius: 30px !important; */
+    font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 10px;
-    bottom: 22px;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+    left: 0;
+    text-align: center;
 }
 .centered {
     position: fixed;
