@@ -1,6 +1,12 @@
 @media(max-width:768px){
     .sponser img{
-        width: 50%;
+        width: 49%;
+    }
+    #action-bar p, .phase-submit p{
+       text-align: center !important;
+    }
+    #action-bar h2, .phase-submit h2{
+        text-align: center !important;
     }
 }
 
